@@ -20,7 +20,7 @@ internal class MainActivityKtTestWithNoAccess {
 
         @Test
         fun randomNameChangerComposableTest() {
-            // Set up the Composable directly within the test
+            // Set up the Composable directly within the test - the code goes below rather than called from another class you can typically access
             composeTestRule.setContent {
                 // Composable content goes here
                 val names = listOf("John Doe", "Jane Smith", "Alice Johnson")
